@@ -1,0 +1,19 @@
+'use strict'
+
+const bills = [];
+const tips = [];
+
+
+function calcAvg (arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
+
+const billAvg = calcAvg(bills);
+const tipAvg = calcAvg(tips)
+const percTot = (tipAvg/ billAvg) * 100;
+
+const dayAvr = alert(`Today your bill average was ${billAvg} and your tip average was ${tipAvg}. Your overall tip percentage for the day is ${(parseFloat(percTot).toFixed(2) + "%")}`)
