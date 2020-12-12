@@ -1,0 +1,22 @@
+Hello, this is the first of documenting my projects. In this first project I am learing and building simultaneously. With my experience with the fine dinning world I plan 
+on developing an application the will help servers track thier financial income. 
+Servers are notoriously known to mishandle finances due to having cash on hand and not having 
+a physical documentation of thier daily income. The application will intake bills of tables, tips from the day, and return an average of bills and tips. 
+It will also return a tip 
+percentage for the day. This will also allow the server to keep track of the viability of staying at a restaurant. 
+If they begin to realize that thier income or tips are decreasing
+they can analize it with this tracker and make a bettter judgement on the root of the issue. 
+The goal of this app is to help servers become more financially responsible and aware of thier performance. 
+
+  + initial tools:
+    - html
+    - css
+    - javascript
+  + future additional tools
+    -mongoDB / MYSQL / Firebase
+    
+    
+
+  + In possible later revisions it will become more of a budget app, where the server can input expenses. Which will give a physical representaion of thier time = income viability.
+  
+ 
