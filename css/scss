@@ -4,14 +4,23 @@ $spartan-slab: "Roboto Slab", serif;
 $open-sans: "Open Sans", sans-serif;
 
 %title {
-  font-size: 2.7em;
+  font-size: 1.8em;
   color: #202020;
   text-transform: uppercase;
 }
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -21,18 +30,60 @@ $open-sans: "Open Sans", sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .title {
-  margin: 0 6em;
-  padding: 1em 0;
-  // width: 500px;
+  height: 18vh;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
+
+  padding: 1em 1em;
+
   text-align: center;
-  position: relative;
+
   top: 18%;
-  // left: 50%;
+
   @extend %title;
   background-color: rgba($color: rgb(168, 52, 37), $alpha: 0.8);
-  box-shadow: 5px 9px rgba($color: #202020, $alpha: 0.72);
+
+  z-index: 2;
+}
+
+.fin-ent {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fin-ent input {
+  justify-self: center;
+
+  background-color: #202020;
+  width: 50%;
+  font-size: 2em;
+  color: rgb(168, 52, 37);
+}
+
+.check {
+  justify-self: center;
+  border: none;
+
+  color: #222;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-top: 1em;
+  padding: 1em 1em;
+  cursor: pointer;
 }
