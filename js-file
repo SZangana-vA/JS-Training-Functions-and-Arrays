@@ -1,7 +1,16 @@
 'use strict'
 
-const bills = [];
-const tips = [];
+let servTip = [];
+let servBill = [];
+
+
+document.querySelector('.check').addEventListener('click', function () {
+    const finacial = Number(document.querySelectorAll('.finacial').value);
+    servTip.push(finacial);
+    
+    console.log(finacial, servTip);
+})
+
 
 
 function calcAvg (arr) {
@@ -17,3 +26,8 @@ const tipAvg = calcAvg(tips)
 const percTot = (tipAvg/ billAvg) * 100;
 
 const dayAvr = alert(`Today your bill average was ${billAvg} and your tip average was ${tipAvg}. Your overall tip percentage for the day is ${(parseFloat(percTot).toFixed(2) + "%")}`)
+
+
+
+
+
