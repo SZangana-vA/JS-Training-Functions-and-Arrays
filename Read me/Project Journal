@@ -24,3 +24,12 @@ The goal of this app is to help servers become more financially responsible and 
 Today, I was focused on learning the process and steps with a small fraction of work done. I will also add images this week to document my wireframing of this project and architecture. I added some user interface features in the HTML, styled the paged a bit more to make it seem palatable but no where near where I see it. Trying not to spend to much time on esthetics. For now just working on learning and implementing my new aquired knowledge into practice. It seems to be helping me understand the required philosophy of what I am coding. Will step up production.
 
 
+// ------------------------------------------------------------------------- 12/14/20 -------------------------------------------------------------------------------------//
+Today , learned more about DOM manipulating through HTML and CSS. Understand a broader scope of the logical process of implementing certian interactions. For the self project, 
+I had a bit of a hurdle with coding the input field to recieve the user input data and storing it into a empty array. It seemed as if was working and adding a data type into the array but not the one I wanted. Even after using Number(), parseFloat() I wold continue to get a NaN data type into my arrray. 
+
+  + Goals for tomorrow:
+    - attempt to rectify this issue with type conversion tomorrow.
+    - input user data through a average return function.
+
+// ------------------------------------------------------------------------- 12/15/20 -------------------------------------------------------------------------------------//
