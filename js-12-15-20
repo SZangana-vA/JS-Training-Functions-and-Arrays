@@ -1,0 +1,33 @@
+'use strict'
+
+let enterBtn = document.querySelector('.check');
+let servBill = [];
+
+let addButton = document.querySelector('.check');
+let displayButton = document.querySelector('#display');
+let servTip = [];
+
+const changeBG = function(backgroundColor) {
+    document.querySelector('.check').style.backgroundColor = backgroundColor;
+  }
+
+
+  addButton.addEventListener('click', addRecord);
+
+  
+  function addRecord() {
+      let record = Number(document.querySelector('.finacial').value);
+      if (!record) {
+          return;
+      }
+      servTip.push(record);
+      document.querySelector('.finacial').value = '';
+      
+  }
+  
+  const arrAvg = arr => arr.reduce((a, b) => a + b, 0) / arr.length;
+
+
+  console.log(servTip);
+  const servAVG = arrAvg(servTip);
+  console.log(servAVG);
