@@ -33,3 +33,15 @@ I had a bit of a hurdle with coding the input field to recieve the user input da
     - input user data through a average return function.
 
 // ------------------------------------------------------------------------- 12/15/20 -------------------------------------------------------------------------------------//
+
++++ It seems as though I have finally been able to solve a method of inserting user input value into a array. (Thank you Stack Overflow!) I worked on other projects( Author Site and Portfolio). But was able to sneek in some time to work on this issue. 
+
++ Goals for tomorrow: 
+  - Calculating a average with user data. 
+  - Add a bit more funcuality to input field:
+      - keydown function
+      -focus after submission.
+      
+// ------------------------------------------------------------------------- 12/16/20 -------------------------------------------------------------------------------------//
+
+      
