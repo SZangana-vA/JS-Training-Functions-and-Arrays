@@ -44,4 +44,10 @@ I had a bit of a hurdle with coding the input field to recieve the user input da
       
 // ------------------------------------------------------------------------- 12/16/20 -------------------------------------------------------------------------------------//
 
-      
++++ Today, I was not able to work on my server-tip app. The focus on today was primiraly learning more in my class and then working on my porfolio. I also am doing  a redesign of sorts on a website I did for a grocery store. At this time the store site is a simple informative site. However, it is very "raw" due to it being my first project. The client is satisfied with the end result. But I will be redesigning with my updated skills on web development. I also will be implementing and feauture for pick orders but that is a seperate project and will be posting a journal to that project seperatly. 
+
++ Goals for tomorrow: 
+  - Calculating a average with user data. 
+  - Add a bit more funcuality to input field:
+      - keydown function
+      -focus after submission.
